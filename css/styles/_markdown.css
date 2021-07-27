@@ -1,0 +1,40 @@
+.markdown pre {
+  @apply my-8;
+}
+
+.markdown p code {
+  @apply px-2 inline-block;
+  font-size: 80%;
+}
+
+.markdown a {
+  @apply border-b-2 border-gray-400 hover:border-gray-900;
+}
+
+.language- a {
+  color: #f8f8f2;
+  @apply border-0;
+}
+
+.markdown h2 {
+  @apply pt-8;
+}
+
+.markdown img {
+  @apply py-8;
+}
+
+.markdown ul {
+  @apply pl-8 py-2;
+  list-style: disc;
+}
+
+.markdown li {
+  @apply my-2;
+}
+
+@media screen and (max-width: 768px) {
+  .markdown {
+    font-size: 16px;
+  }
+}

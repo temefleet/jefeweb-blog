@@ -1,0 +1,13 @@
+@layer base {
+  .nav {
+    @apply flex;
+  }
+
+  .nav__item {
+    @apply mt-2 mr-4 md:mt-0 md:mx-2;
+  }
+
+  .nav__item a {
+    @apply text-sm;
+  }
+}

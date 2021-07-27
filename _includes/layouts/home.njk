@@ -2,4 +2,10 @@
 layout: layouts/base.njk
 templateClass: tmpl-home
 ---
-{{ content | safe }}
+<div class="container mx-auto px-4 py-12">
+  <div class="markdown__header border-b pb-2 mb-8 flex justify-between items-end">
+    <h1 class="pr-4">{{ title }}</h1>
+  </div>
+
+  {{ content | safe }}
+</div>

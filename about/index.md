@@ -1,10 +1,10 @@
 ---
-layout: layouts/post.njk
-title: About Me
+layout: layouts/home.njk
+title: About
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: About
   order: 3
 ---
 
-I am a person that writes stuff.
+I am a person.

@@ -1,0 +1,61 @@
+.fish {
+  @apply absolute w-full;
+  top: 30vh;
+}
+
+@keyframes moveFish {
+  0% {
+    transform: translateX(-110%);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.fish1 {
+  transform: translateY(110%);
+}
+
+.fish1 img {
+  animation: moveFish 26s linear infinite;
+  animation-direction: normal;
+  transform: translateX(-200%);
+}
+
+@media screen and (max-width: 800px) {
+  .fish1 img {
+    animation-duration: 20s;
+  }
+}
+
+.fish2 img {
+  transform: translateX(-200%);
+  animation: moveFish 26s linear infinite;
+  animation-direction: normal;
+  animation-delay: 3s;
+}
+
+@media screen and (max-width: 800px) {
+  .fish2 img {
+    animation-delay: 3s;
+    animation-duration: 20s;
+  }
+}
+
+.fish3 {
+  transform: translateY(110%);
+}
+
+.fish3 img {
+  animation: moveFish 26s linear infinite;
+  animation-direction: normal;
+  transform: translateX(-200%);
+  animation-delay: 6s;
+}
+
+@media screen and (max-width: 800px) {
+  .fish3 img {
+    animation-delay: 7s;
+    animation-duration: 20s;
+  }
+}
