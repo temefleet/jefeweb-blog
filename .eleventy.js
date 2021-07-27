@@ -81,6 +81,9 @@ module.exports = function(eleventyConfig) {
   // Shortcodes
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode)
 
+  // Passthrough
+  eleventyConfig.addPassthroughCopy("static");
+
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
     html: true,
