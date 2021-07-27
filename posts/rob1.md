@@ -19,7 +19,7 @@ HTML has many different **tags** or **elements** used to describe the content. F
 <p>Hello I am a paragraph</p>
 ```
 
-Your paragraph is placed between <code class="language-">\<p></code> and <code class="language-">\</p></code>. This is the basic structure for all HTML tags.
+Your paragraph is placed between <code class="language-">\<p></code> and <code class="language-">\</p></code>. This is the basic structure for most HTML tags except self-closing tags which we will cover later.
 
 Every HTML document needs 3 tags: <code class="language-">\<html></code>, <code class="language-">\<head></code>, and <code class="language-">\<body></code>. For now we'll focus on the <code class="language-">\<body></code>. This is where the bulk of your time will be spent.
 
@@ -27,7 +27,7 @@ So let's start writing some code.
 
 ## Installing a text editor
 
-A text editor is a program where we'll write our code. You could open up Notepad and write code there, but there are other programs which will give us features such as 'syntax highlighting' so our code is easier to read, error checking, and many other features.
+A text editor is a program where we'll write our code. You could open up Notepad and write code there, but there are other programs which will give us features such as syntax highlighting so our code is easier to read, error checking, and many other features.
 
 There are a ton of text editors to choose from, but we're going to use [Visual Studio Code](https://code.visualstudio.com/). So head on over there, download and install it.
 
@@ -41,7 +41,7 @@ Open this file with Visual Studio Code (hereby known as VSCode).
 
 ## Coding some content
 
-You'll need some boilerplate to get started. Boilerplate just means some fundamental code to get started. This can be easily done in VSCode. Just type <code class="language-">html:5</code> and then hit <code class="language-">TAB</code>. Boom, you should have a bunch of code that looks like this:
+You'll need some **boilerplate** to get started. Boilerplate just means some fundamental code that is needed before we can add our own code. This can be easily done in VSCode. Just type <code class="language-">html:5</code> and then hit <code class="language-">TAB</code>. Boom, you should have a bunch of code that looks like this:
 
 ```html
 <!DOCTYPE html>
@@ -99,11 +99,11 @@ My awesome title</h1>
 </body>
 ```
 
-but even if the code works whichever way you write it, it's important that it's readable for humans. So usually we'd stick to one of the first 2 examples with each nested tag indented a bit further than the line before it.
+but even if the code works whichever way you write it, it's important that it's readable for humans. So usually we'd stick to one of the first 2 examples with each **nested** tag indented a bit further than the line before it.
 
 ## Adding an image
 
-An image take looks like this:
+An image tag looks like this:
 
 ```html
 <img src="path/to/image.jpeg" alt="A picture of me when I was younger" />
